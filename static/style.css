@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #30A9DE;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 550px;
+    margin: 5em auto;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        padding-top: 30px;
+    }
+
+    div {
+        width: 85%;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 1em;
+    }
+
+    .item {
+        font-size: x-large;
+        margin: 15px;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    body {
+        /*padding-top: 30px;*/
+    }
+
+    div {
+        /*width: 85%;*/
+        /*margin: 0 auto;*/
+        /*border-radius: 5px;*/
+        /*padding: 1em;*/
+    }
+
+    .item {
+        font-size: x-large;
+        margin: 15px;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+}
+
+.completed {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
+
+li, .form-group, .btn, .form-control {
+    font-size: large;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+a:link, a:hover, a:visited, a:active {
+    cursor: default;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn.btn-danger.btn-block {
+    color: white;
+}
